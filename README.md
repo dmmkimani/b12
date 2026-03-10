@@ -4,7 +4,7 @@ This repository implements the B12 application submission task: submitting a JSO
 
 ## Approach
 
-- GitHub Action is triggered manually via the repository Actions tab, allowing submissions to be made on demand.
+- The GitHub Action is triggered manually via the repository Actions tab, allowing submissions to be made on demand.
 - The workflow executes `submit.py`.
 - The script:
     - generates an ISO-8601 timestamp
