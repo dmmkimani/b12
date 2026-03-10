@@ -36,5 +36,5 @@ set SIGNING_SECRET=[SECRET] & pytest
 ###### On Windows
 ```
 pip install -r requirements.txt
-set RUN_ID_URL=<example> & set SIGNING_SECRET=[SECRET] & python submit.py
+set RUN_ID_URL="" & set SIGNING_SECRET=[SECRET] & python submit.py
 ```
